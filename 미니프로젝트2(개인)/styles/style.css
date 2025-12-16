@@ -324,28 +324,30 @@ input {
 
 .btn-scroll-top {
   position: fixed;
-  bottom: 100vw-24px;
-  right: 10vh-24px;
+  bottom: 124px;
+  right: 24px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-image: url(../images/top-btn.svg);
-  background-color: white;
-  color: rgba(196, 196, 196, 1);
-  border-color: rgba(196, 196, 196, 1);
+  border: solid 3px rgba(196, 196, 196, 1);
+  background-color: #fff;
   background-size: cover;
   cursor: pointer;
 }
 
-.btn-scroll-top::hover {
+.btn-scroll-top:hover {
+  position: fixed;
+  bottom: 124px;
+  right: 24px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-image: url(../images/top-btn.svg);
-  background-color: white;
-  color: rgba(118, 118, 118, 1);
-  border-color: rgba(196, 196, 196, 1);
+  background-image: url(../images/keyboard_arrow_up.svg);
+  border: solid 3px rgba(196, 196, 196, 1);
+  background-color: #fff;
   background-size: cover;
+  cursor: pointer;
 }
 
 footer {
