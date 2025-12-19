@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>랜딩페이지</title>
+  <meta
+    name="description"
+    content="Spoqa Han Sans Neo 폰트를 적용한 반응형 랜딩페이지입니다."
+  />
+  <meta name="author" content="박외숙" />
+  <link rel="icon" href="./images/favicon.ico" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body id="top">
+  <header>
+      <div class="container1">
+        <img class="logo" src="./images/logo.svg" alt="로고" />
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+         &#9776; 
+        </label>
+        <div class="nav-group">
+          <nav class="nav-box">
+            <a href="home.html" class="nav-btn">Home</a>
+            <a href="about.html" class="nav-btn">About</a>
+            <a href="contact.html" class="nav-btn">Contact</a>
+          </nav>
+          <button class="btn-download">Download</button>
+        </div>       
+      </div>
+    </header>
+
+    <main>
+      <div class="section-hero-bg">
+       <section class="section-hero">
+       
+           <div class="hero-text-container">
+          <h2 class="hero-h">
+            Lorem Ipsum is simply dummy text of the printing and
+          </h2>
+          <p class="hero-p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown
+          </p>
+          <button class="btn-download">Download</button>
+        </div>
+        <img
+          class="box-cat"
+          src="./images/hero-image.png"
+          alt="박스를 뒤집어 쓴 고양이"
+        />      
+       </section> 
+      </div>
+
+      <section class="section-contaioner">
+        <div class="section1">
+          <img
+            class="noop-cat"
+            src="./images/feature-image.png"
+            alt="이불위에 누운 고양이"
+          />
+          <div class="first">
+            <h3 class="first-h">
+              Lorem Ipsum is simply dummy text of the printing and dummy text
+            </h3>
+            <p class="first-p">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+        </div>
+
+        <div class="section2">
+          <div class="second">
+            <h2>
+              <span>dummy text of the printing and dummy</span>
+            </h2>
+            <p class="second-p">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown
+            </p>
+          </div>
+          <div class="img-box">
+            <img src="./images/cat1.png" alt="벌 서는 고양이" />
+            <img src="./images/cat2.png" alt="왕관 쓴 고양이" />
+            <img src="./images/cat3.png" alt="로봇 고양이" />
+          </div>
+          <div class="story">
+            <p class="story-p">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown Ipsum is simply dummy text
+              of the printing and typesetting industry.
+            </p>
+            <button class="btn-learn-more">Learn More</button>
+          </div>
+        </div>
+        </section>
+
+        <div class="section3">
+          <div class="newsletter">
+            <h3 class="newsletter-h">Subscribe to our Blog post</h3>
+            <p class="newsletter-p">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+            </p>
+          </div>
+         
+           <div class="input-container"> 
+              <form action="#subscrkbeModal">
+              <div class="input-wrap">
+                <input type="e-mail" 
+                  required
+                  placeholder="Enter your e-mail address"
+                  /> 
+              <button class="btn-submit" type="submit" id="show-dialog-btn">Subscribe</button>
+              </div>
+              </form>              
+            </div>
+         
+        </div>
+      </section>
+
+      <button class="btn-scroll-top" src="./images/top-btn.svg"></button>
+  </main>
+         
+   <div class="bg-img"></div>
+
+    <footer>
+        <img class="logo-big" src="./images/logo.svg" alt="로고" />
+      <div class="sns-icons">
+        
+        <a href="https://blog.naver.com" target="_blank">
+          <div class="blog-box">
+          <img src="./images/blog.png" alt="블로그" />
+        </div>
+        </a>
+
+        <a href="https://www.instagram.com" target="_blank">
+          <div class="instagram-box">
+            <img src="./images/instagram.png" alt="인스타그램" />
+          </div>          
+         </a>
+
+        <a href="https://www.facebook.com" target="_blank">
+         <div class="facebook-box">
+          <img src="./images/facebook.png" alt="페이스북" />
+         </div>          
+         </a>
+
+        <a href="https://www.youtube.com" target="_blank">
+          <div class="youtube-box">
+            <img src="./images/youtube.png" alt="유튜브" />
+          </div>          
+          </a>
+      </div>     
+    </footer>
+  <a href="#top" class="btn-scroll-top" aria-label="맨 위로 이동"></a>
+  <a href="#top" class="scroll-area">
+    <div class="btn-scroll-top"></div>
+  </a>
+    <dialog class="modal" id="subscribe-modal">  
+      <div class="thanks-card">
+        <img src="./images/cat 1.png" alt="고양이 얼굴">
+        <h3 > 
+          <span>Thank you!</span>
+        </h3>
+        <p class="modal-p">
+          Lorem Ipsum is simply dummy text of the printing industry. 
+        </p>
+        <form method ="dialog">
+          <button class="btn-ok" id="close-btn">OK! I Love HODU</button>
+        </form>           
+      </div> 
+   </dialog> 
+<script>
+  const dialog = document.getElementById("subscribe-modal");
+  const showDialogBtn = document.getElementById("show-dialog-btn");
+  const closeBtn = document.getElementById("close-btn");
+ 
+  showDialogBtn.addEventListener('click', () => {
+    dialog.showModal();
+    console.log('#');
+  });
+ 
+  closeBtn.addEventListener('click', () => {
+    dialog.close();
+  });
+</script>
+  
+  </body>
+</html>
